@@ -12,7 +12,7 @@ $panjang = 8.9;
 $lebar = 14.7;
 $sisi = 7.9;
 
-echo "<br />Tinggi = ".$tinggi;
+echo "Tinggi = ".$tinggi;
 echo "<br />Lebar = ".$lebar;
 echo "<br />Sisi = ".$sisi;
 echo "<br /><br />Output (Volume Prisma Alas Segitiga) = ";
