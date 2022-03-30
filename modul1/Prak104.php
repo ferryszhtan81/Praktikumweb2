@@ -10,11 +10,11 @@
 </style>
 <body>
 <?php
-$array = array("Samsung Galaxy S22","Samsung Galaxy S22+","Samsung Galaxy A03","Samsung Galaxy Xcover 5");
+$ListHP = array("Samsung Galaxy S22", "Samsung Galaxy S22+", "Samsung Galaxy A03", "Samsung Galaxy Xcover 5");
 echo "<table>";
 echo "<tr><th>Daftar Smartphone Samsung</th></tr>";
-foreach ($array as $data){
-    echo "<tr><td>".$data."</td></tr>";
+foreach ($ListHP as $DataHP){
+    echo "<tr><td>".$DataHP."</td></tr>";
 }
 echo "</table>";
 ?>
