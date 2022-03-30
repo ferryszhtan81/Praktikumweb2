@@ -5,15 +5,14 @@
 </head>
 <body>
 <?php
-$Celsius = 37.841;
-$Fahrenheit = 9/5*$Celsius+32;
-$Reaumur = 4/5*$Celsius;
-$Kelvin = $Celsius+273;
-
-echo "Celsius = ".$Celsius."<br />";
-echo "<br />Fahrenheit = ".$Fahrenheit;
-echo "<br />Reamur = ".$Reaumur;
-echo "<br />Kelvin = ".$Kelvin;
+$celsius = 37.841;
+$fahrenheit = (9/5) * $celsius + 32;
+$reaumur = (4/5) * $celsius;
+$kelvin = 273 + $celsius;
+echo "Celsius = ".$celsius."<br />";
+echo "<br />Fahrenheit = ".$fahrenheit;
+echo "<br />Reamur = ".$reaumur;
+echo "<br />Kelvin = ".$kelvin;
 ?>
 </body>
 </html>
